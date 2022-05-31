@@ -1,0 +1,487 @@
+/*------------------------------------- font-family -----------------------------------------------*/
+@charset "UTF-8";
+
+@font-face {
+  font-family: Yekan Bakh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Yekan\ Bakh\ EN\ 01\ Hairline.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Vibur";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fonts.googleapis.com/Google-Font.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+html,
+body,
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a.link-hover,
+.footer-1 .footer-links .footer-block .footer-social ul li a,
+h2.title,
+.testimonials-2.testimonials-3.testimonials-new
+  .testimonials-inner
+  .testimonials-item
+  .top-box
+  .p-larg {
+  font-family: "Yekan Bakh", serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+}
+
+.logo b {
+  font: 386 7vh "Vibur";
+  top: -14px;
+  right: 31px;
+  position: inherit;
+  direction: ltr;
+  display: flex;
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+.main-slider .dsn-controls {
+  right: unset;
+  left: 46px;
+}
+
+.content-box-next {
+  direction: ltr;
+  text-align: center;
+}
+.link-vist {
+  direction: ltr;
+}
+
+.footer-1 .copyright p {
+  text-align: center;
+  text-shadow: 0 0 10px rgb(255 5 49);
+}
+
+.site-header {
+  backdrop-filter: blur(17px);
+}
+
+li.checked-black a span {
+  color: black;
+  font-weight: 600;
+}
+
+.main-slider .dsn-slider-content .slide-content.dsn-active .description,
+.main-slider .dsn-slider-content .slide-content.dsn-active .dsn-button-link a,
+.main-slider .dsn-slider-content .slide-content.dsn-active .metas,
+.main-slider .dsn-slider-content .slide-content.dsn-active .sub-text-header,
+.main-slider .dsn-slider-content .slide-content.dsn-active .title a {
+  pointer-events: auto;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+div.content-box-next {
+  direction: rtl;
+  text-align: center;
+}
+.main-slider .box-next .content-box-next .title-next {
+  text-align: center;
+}
+body {
+  color: pink;
+}
+[data-dsn="rStories"].work-masonry .story-item::before,
+[data-overlay]::before {
+  opacity: 0.5;
+}
+.shadow,
+.fa-angle-right:before,
+.fa-angle-left:before,
+.testimonials-2.testimonials-3.testimonials-new .testimonials-inner:after,
+.accordion__question::before {
+  -webkit-filter: drop-shadow(0 0 9px rgb(255, 5, 49));
+  filter: drop-shadow(0px 0px 9px rgb(255, 5, 49));
+}
+div.description.p-absolute.d-flex.a-item-center.background-section {
+  backdrop-filter: blur(17px);
+  background-color: unset;
+}
+
+div.next-up-inner.p-relative.background-section {
+  /* box-shadow: 0 0 9px rgba(255, 69, 125, 0.644); */
+
+  background-color: unset !important;
+  border-radius: 25px;
+  -webkit-transition: 0.25s all;
+  -webkit-transition-delay: 0.25s;
+  -moz-transition: 0.25s all;
+  -moz-transition-delay: 0.25s;
+  -ms-transition: 0.25s all;
+  -ms-transition-delay: 0.25s;
+  -o-transition: 0.25s all;
+  -o-transition-delay: 0.25s;
+  transition: 0.25s all;
+  transition-delay: 0.25s;
+}
+.site-header
+  .extend-container
+  .main-navigation
+  ul.extend-container
+  li
+  .dsn-back-menu
+  img {
+  transform: translateY(-8%) rotate(180deg);
+}
+.footer-1 .footer-links .footer-block.col-contact p strong,
+.service.service-3 .services-item:hover .box-content .content p {
+  color: pink;
+  text-shadow: 0 0 10px rgb(255, 5, 49);
+}
+.next-up .next-up-inner .btn {
+  background-color: pink;
+}
+
+@media only screen and (min-width: 992px) {
+  div.col-lg-6.col-md-7.offset-lg-6.offset-md-5 {
+    margin-right: 50%;
+  }
+  .classic-menu
+    .site-header
+    .extend-container
+    .main-navigation
+    ul.extend-container
+    > li {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .logo {
+    text-align: center;
+    align-items: center;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 70px;
+    bottom: 0;
+    user-select: none;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  li.checked-black a span {
+    color: aliceblue;
+  }
+}
+/* html,
+body,
+a,
+p,
+button {
+  cursor: none !important;
+} */
+/*----------------------------------- preloader-------------------------------- */
+
+.no-scroll-y {
+  overflow-y: hidden;
+}
+
+/* Preloader */
+.ctn-preloader {
+  align-items: center;
+  cursor: none;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 900;
+}
+
+.ctn-preloader .animation-preloader {
+  position: absolute;
+  z-index: 100;
+}
+
+/* Spinner cargando */
+.ctn-preloader .animation-preloader .spinner {
+  -webkit-animation: spinner 1s infinite linear;
+  animation: spinner 1s infinite linear;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 192, 203, 0.24);
+  border-top-color: pink; /* No se identa por orden alfabetico para que no lo sobre-escriba */
+  -webkit-filter: drop-shadow(0 0 9px rgb(255, 5, 49));
+  filter: drop-shadow(0px 0px 9px rgb(255, 5, 49));
+  height: 9em;
+  margin: 0 auto 3.5em auto;
+  width: 9em;
+}
+
+/* Texto cargando */
+.ctn-preloader .animation-preloader .txt-loading {
+  font: bold 5em "Montserrat", sans-serif;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
+  -webkit-animation: letters-loading 4s infinite;
+  animation: letters-loading 4s infinite;
+  font-family: Vibur, serif;
+  color: pink;
+  text-shadow: 0 0 9px rgb(255, 5, 49);
+  content: attr(data-text-preloader);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(-90deg);
+}
+
+.ctn-preloader .animation-preloader .txt-loading .letters-loading {
+  font-family: Vibur, serif;
+  color: rgba(255, 192, 203, 0.068);
+  position: relative;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(2):before {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(3):before {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(4):before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(5):before {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(6):before {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.ctn-preloader
+  .animation-preloader
+  .txt-loading
+  .letters-loading:nth-child(7):before {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.ctn-preloader .loader-section {
+  background-color: #000;
+  backdrop-filter: blur(17px);
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  width: calc(50% + 1px);
+}
+
+.ctn-preloader .loader-section.section-left {
+  left: 0;
+}
+
+.ctn-preloader .loader-section.section-right {
+  right: 0;
+}
+
+/* Efecto de fade en la animación de cargando */
+.loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+/* Efecto de cortina */
+.loaded .loader-section.section-left {
+  transform: translateX(-101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.loaded .loader-section.section-right {
+  transform: translateX(101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+/* Animación del preloader */
+@-webkit-keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* Animación de las letras cargando del preloader */
+@-webkit-keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+@keyframes letters-loading {
+  0%,
+  75%,
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  25%,
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+/* Tamaño de portatil hacia atras (portatil, tablet, celular) */
+@media screen and (max-width: 767px) {
+  /* Preloader */
+  /* Spinner cargando */
+  .ctn-preloader .animation-preloader .spinner {
+    height: 8em;
+    width: 8em;
+  }
+
+  /* Texto cargando */
+  .ctn-preloader .animation-preloader .txt-loading {
+    font: bold 3.5em "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Prelaoder */
+  /* Spinner cargando */
+  .ctn-preloader .animation-preloader .spinner {
+    height: 7em;
+    width: 7em;
+  }
+
+  /* Texto cargando */
+  .ctn-preloader .animation-preloader .txt-loading {
+    font: bold 2em "Montserrat", sans-serif;
+  }
+}
+.cursor .cursor-helper span {
+  direction: ltr !important;
+  text-align: center !important;
+}
+h4.title-block {
+  text-align: center;
+}
+.site-header .inner-header .main-logo div.logo {
+  height: 40px;
+}
+
+button.btn-form:hover span.label {
+  color: #000;
+}
